@@ -1,0 +1,29 @@
+.sidebar {
+  position: fixed;
+  top: 78px;
+  bottom: 0px;
+  left: 4px;
+  width: 60px;
+  z-index: 2;
+  background-color: rgb(255, 255, 255);
+}
+
+.div-sideicons {
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background-color 0.3s;
+  justify-content: center;
+  border-radius: 9px;
+}
+.div-sideicons:hover {
+  background-color: rgb(236, 236, 236);
+  cursor: pointer;
+}
+.sideicons {
+  height: 24px;
+  margin-bottom: -3px;
+}

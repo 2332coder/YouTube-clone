@@ -1,0 +1,71 @@
+.thumbnail {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+.videotime {
+  background-color: black;
+  opacity: 0.9;
+  color: aliceblue;
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  border-radius: 4px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 13px;
+  font-weight: 450;
+}
+.video-name {
+  font-size: 16px;
+  margin: 0px;
+  margin-bottom: -5px;
+}
+.author {
+  font-size: 14px;
+  color: rgb(72, 72, 72);
+  margin-bottom: 5px;
+}
+.info {
+  font-size: 14px;
+  color: rgb(72, 72, 72);
+  margin-top: 0px;
+}
+.videogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+}
+@media (max-width: 800px) {
+  .videogrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) and (min-width: 200px) {
+  .videogrid {
+    grid-template-columns: 1fr;
+  }
+}
+.div1 {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  /* box-shadow: 5px 5px 10px  rgba(111, 111, 111, 0.561); */
+}
+.div2 {
+  width: 100%;
+  position: relative;
+}
+.div3 {
+  display: grid;
+  grid-template-columns: 47px 1fr;
+  margin-top: 8px;
+}
+.profilepic {
+  width: 40px;
+  border-radius: 30px;
+}
